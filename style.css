@@ -1,1 +1,22 @@
+/* GameSir G7 Pro - Skin OBS GPV */
 
+/* Corps de la manette - noir mat */
+.controller {
+  filter: brightness(0.9) saturate(1.1);
+}
+
+/* Bouton A - vert */
+.button.a { background-color: #5BBF4A !important; }
+
+/* Bouton B - rouge */
+.button.b { background-color: #E8453C !important; }
+
+/* Bouton X - bleu */
+.button.x { background-color: #4A90D9 !important; }
+
+/* Bouton Y - jaune/or */
+.button.y { background-color: #F5C518 !important; }
+
+/* Triggers et bumpers */
+.trigger { background-color: #222222 !important; }
+.bumper { background-color: #333333 !important; }
