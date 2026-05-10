@@ -1,12 +1,25 @@
-/* GameSir G7 Pro - Edit CSS pour GPV Xbox One */
-
-/* Couleur du corps de la manette */
-.xboxone .controller {
-  filter: brightness(0.85);
+/* GameSir G7 Pro - couleurs au repos */
+.edit .bumper {
+  background-color: #1a1a1a !important;
 }
 
-/* Boutons face - couleurs GameSir */
-.xboxone .a.pressed { background-color: #5BBF4A !important; }
-.xboxone .b.pressed { background-color: #E8453C !important; }
-.xboxone .x.pressed { background-color: #4A90D9 !important; }
-.xboxone .y.pressed { background-color: #F5C518 !important; }
+.edit .trigger {
+  background-color: #222222 !important;
+}
+
+/* Couleurs des boutons quand appuyés */
+.edit .a.pressed {
+  background-color: #4CAF50 !important;
+}
+
+.edit .b.pressed {
+  background-color: #F44336 !important;
+}
+
+.edit .x.pressed {
+  background-color: #2196F3 !important;
+}
+
+.edit .y.pressed {
+  background-color: #FFC107 !important;
+}
